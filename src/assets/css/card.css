@@ -5,9 +5,11 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: all ease-out .3s;
 }
 .card-profile img:hover{
     cursor: pointer;
+   
 }
 .card-modal{
     display: flex;
@@ -39,6 +41,7 @@
     max-height: 800px;
     height: auto;
     max-width: 800px;
+    transition: all ease-in .3s;
 }
 @media screen and (max-width:640px){
     .modal {
