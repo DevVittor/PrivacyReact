@@ -21,13 +21,15 @@ export default function Home() {
                     Jéssica Gomes<i className="ri-verified-badge-fill"></i>
                   </h2>
                 </div>
-                <div className="profile-follow">
-                  <button className="profile">Seguir R$ 250/mês</button>
-                </div>
-                <div className="profile-share">
-                  <button>
-                    <i className="ri-share-forward-fill"></i>
-                  </button>
+                <div className="price-share">
+                  <div className="profile-follow">
+                    <button className="profile">Seguir R$ 250/mês</button>
+                  </div>
+                  <div className="profile-share">
+                    <button>
+                      <i className="ri-share-forward-fill"></i>
+                    </button>
+                  </div>
                 </div>
               </div>
               <div className="box-descript">
