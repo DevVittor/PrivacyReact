@@ -23,6 +23,7 @@
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid #ddd;
+    pointer-events: none;
 }
 .profile-photo img{
     cursor: pointer;
