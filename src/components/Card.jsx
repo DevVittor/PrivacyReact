@@ -38,7 +38,7 @@ export default function Card(props) {
     <>
       {modal ? (
         <div className="card-profile">
-          <img loading="lazy" src={props.urlImg} alt="" onClick={alterModal} />
+          <img src={props.urlImg} alt="" onClick={alterModal} />
         </div>
       ) : (
         <div className="card-modal" onClick={alterModal}>

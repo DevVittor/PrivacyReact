@@ -1,33 +1,38 @@
 import { Link } from "react-router-dom";
 import "../assets/css/home.css";
 import Card from "../components/Card";
+import DarkMode from "../components/DarkMode";
 export default function Home() {
   return (
     <main>
+      <section>
+        <div className="darkMode">
+          <DarkMode />
+        </div>
+      </section>
       <section>
         <div className="container-profile">
           <div className="box-profile">
             <div className="profile-photo">
               <img
-                loading="lazy"
                 src="https://images.pexels.com/photos/7120317/pexels-photo-7120317.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt=""
+                alt="Avatar"
               />
             </div>
             <div className="profile-info">
               <div className="box-info">
                 <div className="profile-name">
                   <h2>
-                    Jéssica Gomes<i className="ri-verified-badge-fill"></i>
+                    Jéssica Gomes<i className="ri-verified-badge-fill" title="Verificado"></i>
                   </h2>
                 </div>
                 <div className="price-share">
                   <div className="profile-follow">
-                    <button className="profile">Seguir R$ 250/mês</button>
+                    <button className="profile">Follow $ 9.90/month</button>
                   </div>
                   <div className="profile-share">
                     <button>
-                      <i className="ri-share-forward-fill"></i>
+                      <i className="ri-share-forward-fill" title="Share"></i>
                     </button>
                   </div>
                 </div>
