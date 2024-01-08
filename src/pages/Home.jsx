@@ -16,14 +16,14 @@ export default function Home() {
             <div className="profile-photo">
               <img
                 src="https://images.pexels.com/photos/7120317/pexels-photo-7120317.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Avatar"
+                alt="profile picture"
               />
             </div>
             <div className="profile-info">
               <div className="box-info">
                 <div className="profile-name">
                   <h2>
-                    Jéssica Gomes<i className="ri-verified-badge-fill" title="Verificado"></i>
+                    Jéssica Gomes<i className="ri-verified-badge-fill" title="Verified"></i>
                   </h2>
                 </div>
                 <div className="price-share">
@@ -50,22 +50,22 @@ export default function Home() {
                   <ul>
                     <li>
                       <Link to="/#">
-                        <i className="ri-facebook-box-fill"></i>
+                        <i className="ri-facebook-box-fill" title="Facebook"></i>
                       </Link>
                     </li>
                     <li>
                       <Link to="/#">
-                        <i className="ri-instagram-fill"></i>
+                        <i className="ri-instagram-fill" title="Instagram"></i>
                       </Link>
                     </li>
                     <li>
                       <Link to="/#">
-                        <i className="ri-twitter-x-fill"></i>
+                        <i className="ri-twitter-x-fill" title="Twitter"></i>
                       </Link>
                     </li>
                     <li>
                       <Link to="/#">
-                        <i className="ri-telegram-fill"></i>
+                        <i className="ri-telegram-fill" title="Telegram"></i>
                       </Link>
                     </li>
                   </ul>
@@ -75,24 +75,24 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
+      {/*<section>
         <div className="container-status">
           <div className="box-status">
             <h2>
-              <i className="ri-user-add-fill"></i>389 | Seguidores
+              <i className="ri-user-add-fill" title="Followers"></i>389 | Followers
             </h2>
             <h2>
-              <i className="ri-gallery-fill"></i>78 | Posts
+              <i className="ri-gallery-fill" title="Posts"></i>78 | Posts
             </h2>
             <h2>
-              <i className="ri-image-2-fill"></i>53 | Fotos
+              <i className="ri-image-2-fill" title="Pictures"></i>53 | Pictures
             </h2>
             <h2>
-              <i className="ri-folder-video-fill"></i>25 | Vídeos
+              <i className="ri-folder-video-fill" title="Videos"></i>25 | Videos
             </h2>
           </div>
         </div>
-      </section>
+      </section>*/}
       <section>
         <div className="container-card">
           <Card urlImg="https://images.pexels.com/photos/10448485/pexels-photo-10448485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />

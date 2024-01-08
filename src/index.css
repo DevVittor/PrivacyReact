@@ -7,9 +7,10 @@
   list-style: none;
   font-family: 'Inter', sans-serif;
 }
-html {
+html,body {
   scroll-behavior: smooth;
+   transition: background-color .3s ease-in ;
 }
-body{
+/*body{
   background: #020408;
-}
+}*/

@@ -2,15 +2,24 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px;
+    padding: 20px 20px 0px 20px  ;
 }
-.darkMode button{
+.btn_mode_theme_light{
     padding: 5px 20px;
-    border-radius: 3px;
+    border-radius: 5px;
     outline: none;
-    border: none;
-    background: #020408;
-    color: white;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #212121;
+    font-size: 18px;
+}
+.btn_mode_theme_dark{
+    padding: 5px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #fff;
+    background: #212121;
+    color: #fff;
     font-size: 18px;
 }
 .darkMode button{
@@ -20,13 +29,13 @@
     padding-right: 5px;
 }
 .dark-mode{
-    background: #020408;
-    color: white;
+    background: #111111;;
 }
+
 .light-mode {
-    background: white;
-    color: black;
+    background: #f9f9f9;
 }
+
 .container-profile{
     display: flex;
     justify-content: center;
@@ -54,11 +63,18 @@
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #ddd;
     pointer-events: none;
 }
 .profile-photo img{
     cursor: pointer;
+}
+
+.dark-mode .profile-photo img {
+    border: 2px solid #f9f9f9;
+}
+
+.light-mode .profile-photo img {
+   border: 2px solid #212121;
 }
 
 .profile-info{
@@ -75,22 +91,43 @@
     gap: 20px;
     color: white;
 }
-.profile-name i{
+.profile-name .ri-verified-badge-fill{
     padding-left: 5px;
+}
+.dark-mode .profile-name .ri-verified-badge-fill{
+    color: #F6FA70;
+}
+.light-mode .profile-name .ri-verified-badge-fill{
+    color: #0079FF;
 }
 .profile-name h2{
     border-radius: 3px;
     font-size: 18px;
     font-weight: 500;
-    color: white;
+}
+.dark-mode .profile-name h2 {
+    color: #fff;
+}
+.light-mode .profile-name h2 {
+    color: #212121;
 }
 .price-share{
     display: flex;
     gap: 10px;
     align-items: center;
 }
-.profile-follow button{
-    background: #1877F2;
+.dark-mode .profile-follow button{
+    background: rgba(227, 64, 30, 1);
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.light-mode .profile-follow button{
+    background: rgba(24, 119, 242, 1);
     color: white;
     font-size: 14px;
     font-weight: 500;
@@ -102,9 +139,17 @@
 .profile-follow button:hover{
     cursor: pointer;
 }
-.profile-share button{
-    background: black;
-    color: #F5F7F8;
+.dark-mode .profile-share button{
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+.light-mode .profile-share button{
+    background: transparent;
+    color: #212121;
     font-size: 18px;
     font-weight: 500;
     border: none;
@@ -114,22 +159,37 @@
     cursor: pointer;
 }
 .box-descript p{
-    color: white;
     font-size: 15px;
     font-weight: 400;
+}
+.dark-mode .box-descript p{
+    color:#fff;
+}
+.light-mode .box-descript p{
+    color:#212121;
 }
 .box-social ul{
     display: flex;
     align-items: center;
     gap: 10px;
 }
+.box-social li{
+    transition: transform ease-in-out 0.2s;
+}
+.box-social li:hover{
+    transform: scale(1.3);
+}
 .box-social a{
     font-size: 20px;
-    color: white;
+}
+.dark-mode .box-social  a{
+    color: #fff;
+}
+.light-mode .box-social  a{
+    color: #212121;
 }
 .container-card{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    columns: 5;
     gap: 5px;
     padding: 5px;
 }
@@ -159,6 +219,7 @@
     background: white;
 }
 @media screen and (max-width:990px){
+
     .card-profile{
         margin-left: 5px;
         margin-right: 5px;
@@ -169,7 +230,7 @@
         gap: 5px;
     }
     .container-card{
-        padding: 0;
+        columns: 3;
     }
 }
 @media screen and (max-width:770px){
@@ -181,10 +242,13 @@
         align-items: center;
     }
     .container-card{
-        padding: 0;
+        columns: 3;
     }
 }
 @media screen and (max-width:640px){
+    .darkMode{
+        padding: 10px 10px 0px 10px;
+    }
     .container-profile{
         padding: 20px;
     }
@@ -207,7 +271,7 @@
         text-align: center;
     }
     .container-card{
-        padding: 0;
+        columns: 1;
     }
     .box-status{
         justify-content: center;
