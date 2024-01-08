@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import "../assets/css/home.css";
 import Card from "../components/Card";
 import DarkMode from "../components/DarkMode";
-export default function Home() {
+function Home() {
 
-  const arrayFotos = [
+  /*const arrayFotos = [
     "src/assets/img/1.jpg",
     "src/assets/img/2.jpg",
     "src/assets/img/14.jpg",
@@ -94,7 +94,56 @@ export default function Home() {
     "src/assets/img/14.jpg",
     "src/assets/img/15.jpg",
     "src/assets/img/16.jpg",
-    ]
+    ];*/
+  const arrayFotos = [
+    "https://i.imgur.com/YYdQR5P.jpg",
+    "https://i.imgur.com/LmXofXG.jpg",
+    "https://i.imgur.com/F71y9gY.jpg",
+    "https://i.imgur.com/aeTx51c.jpg",
+    "https://i.imgur.com/gN0gAx0.jpg",
+    "https://i.imgur.com/tYwB7Tb.jpg",
+    "https://i.imgur.com/Pb1leO4.jpg",
+    "https://i.imgur.com/HiIyN0h.jpg",
+    "https://i.imgur.com/6lcjMzd.jpg",
+    "https://i.imgur.com/aOTyduY.jpg",
+    "https://i.imgur.com/F71y9gY.jpg",
+    "https://i.imgur.com/aeTx51c.jpg",
+    "https://i.imgur.com/gN0gAx0.jpg",
+    "https://i.imgur.com/tYwB7Tb.jpg",
+    "https://i.imgur.com/n5nR7fV.jpg",
+    "https://i.imgur.com/BarDssC.jpg",
+    "https://i.imgur.com/oLNQYDK.jpg",
+    "https://i.imgur.com/TS0qm99.jpg",
+    "https://i.imgur.com/spVvPy7.jpg",
+    "https://i.imgur.com/UikKChQ.jpg",
+    "https://i.imgur.com/HiIyN0h.jpg",
+    "https://i.imgur.com/6lcjMzd.jpg",
+    "https://i.imgur.com/aOTyduY.jpg",
+    "https://i.imgur.com/LmXofXG.jpg",
+    "https://i.imgur.com/F71y9gY.jpg",
+    "https://i.imgur.com/LmXofXG.jpg",
+    "https://i.imgur.com/F71y9gY.jpg",
+    "https://i.imgur.com/LmXofXG.jpg",
+    "https://i.imgur.com/F71y9gY.jpg",
+    "https://i.imgur.com/aeTx51c.jpg",
+    "https://i.imgur.com/gN0gAx0.jpg",
+    "https://i.imgur.com/tYwB7Tb.jpg",
+    "https://i.imgur.com/aeTx51c.jpg",
+    "https://i.imgur.com/gN0gAx0.jpg",
+    "https://i.imgur.com/tYwB7Tb.jpg",
+    "https://i.imgur.com/n5nR7fV.jpg",
+    "https://i.imgur.com/BarDssC.jpg",
+    "https://i.imgur.com/oLNQYDK.jpg",
+    "https://i.imgur.com/TS0qm99.jpg",
+    "https://i.imgur.com/spVvPy7.jpg",
+    "https://i.imgur.com/UikKChQ.jpg",
+    "https://i.imgur.com/HiIyN0h.jpg",
+    "https://i.imgur.com/6lcjMzd.jpg",
+    "https://i.imgur.com/aOTyduY.jpg",
+    "https://i.imgur.com/LmXofXG.jpg",
+    "https://i.imgur.com/F71y9gY.jpg",
+    "https://i.imgur.com/aeTx51c.jpg",
+  ]
 
   return (
     <main>
@@ -197,3 +246,4 @@ export default function Home() {
     </main>
   );
 }
+export default Home;

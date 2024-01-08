@@ -6,7 +6,7 @@ import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Error404 from "./pages/Error404";
 
-export default function App() {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -18,3 +18,4 @@ export default function App() {
     </BrowserRouter>
   );
 }
+export default App;
