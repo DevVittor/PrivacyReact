@@ -44,7 +44,7 @@ export default function Card(props) {
         <div className="card-modal" onClick={alterModal}>
           <div className="modal">
             <i className="ri-close-fill" onClick={alterModal}></i>
-            <img src={props.urlImg} alt="" />
+            <img loading="lazy" src={props.urlImg} alt="" />
           </div>
         </div>
       )}

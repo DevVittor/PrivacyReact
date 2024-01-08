@@ -3,6 +3,99 @@ import "../assets/css/home.css";
 import Card from "../components/Card";
 import DarkMode from "../components/DarkMode";
 export default function Home() {
+
+  const arrayFotos = [
+    "src/assets/img/1.jpg",
+    "src/assets/img/2.jpg",
+    "src/assets/img/14.jpg",
+    "src/assets/img/15.jpg",
+    "src/assets/img/16.jpg",
+    "src/assets/img/3.jpg",
+    "src/assets/img/8.jpg",
+    "src/assets/img/9.jpg",
+    "src/assets/img/10.jpg",
+    "src/assets/img/11.jpg",
+    "src/assets/img/12.jpg",
+    "src/assets/img/13.jpg",
+    "src/assets/img/14.jpg",
+    "src/assets/img/15.jpg",
+    "src/assets/img/16.jpg",
+    "src/assets/img/4.jpg",
+    "src/assets/img/5.jpg",
+    "src/assets/img/8.jpg",
+    "src/assets/img/9.jpg",
+    "src/assets/img/10.jpg",
+    "src/assets/img/11.jpg",
+    "src/assets/img/12.jpg",
+    "src/assets/img/5.jpg",
+    "src/assets/img/8.jpg",
+    "src/assets/img/9.jpg",
+    "src/assets/img/10.jpg",
+    "src/assets/img/11.jpg",
+    "src/assets/img/12.jpg",
+    "src/assets/img/13.jpg",
+    "src/assets/img/14.jpg",
+    "src/assets/img/15.jpg",
+    "src/assets/img/16.jpg",
+    "src/assets/img/6.jpg",
+    "src/assets/img/13.jpg",
+    "src/assets/img/14.jpg",
+    "src/assets/img/15.jpg",
+    "src/assets/img/16.jpg",
+    "src/assets/img/6.jpg",
+    "src/assets/img/7.jpg",
+    "src/assets/img/8.jpg",
+    "src/assets/img/9.jpg",
+    "src/assets/img/10.jpg",
+    "src/assets/img/11.jpg",
+    "src/assets/img/12.jpg",
+    "src/assets/img/13.jpg",
+    "src/assets/img/14.jpg",
+    "src/assets/img/15.jpg",
+    "src/assets/img/16.jpg",
+    "src/assets/img/8.jpg",
+    "src/assets/img/9.jpg",
+    "src/assets/img/10.jpg",
+    "src/assets/img/11.jpg",
+    "src/assets/img/12.jpg",
+    "src/assets/img/13.jpg",
+    "src/assets/img/14.jpg",
+    "src/assets/img/15.jpg",
+    "src/assets/img/16.jpg",
+    "src/assets/img/3.jpg",
+    "src/assets/img/8.jpg",
+    "src/assets/img/9.jpg",
+    "src/assets/img/10.jpg",
+    "src/assets/img/11.jpg",
+    "src/assets/img/12.jpg",
+    "src/assets/img/13.jpg",
+    "src/assets/img/14.jpg",
+    "src/assets/img/15.jpg",
+    "src/assets/img/16.jpg",
+    "src/assets/img/4.jpg",
+    "src/assets/img/5.jpg",
+    "src/assets/img/8.jpg",
+    "src/assets/img/9.jpg",
+    "src/assets/img/10.jpg",
+    "src/assets/img/11.jpg",
+    "src/assets/img/12.jpg",
+    "src/assets/img/13.jpg",
+    "src/assets/img/14.jpg",
+    "src/assets/img/15.jpg",
+    "src/assets/img/16.jpg",
+    "src/assets/img/6.jpg",
+    "src/assets/img/7.jpg",
+    "src/assets/img/8.jpg",
+    "src/assets/img/9.jpg",
+    "src/assets/img/10.jpg",
+    "src/assets/img/11.jpg",
+    "src/assets/img/12.jpg",
+    "src/assets/img/13.jpg",
+    "src/assets/img/14.jpg",
+    "src/assets/img/15.jpg",
+    "src/assets/img/16.jpg",
+    ]
+
   return (
     <main>
       <section>
@@ -95,46 +188,10 @@ export default function Home() {
       </section>*/}
       <section>
         <div className="container-card">
-          <Card urlImg="https://images.pexels.com/photos/10448485/pexels-photo-10448485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7120317/pexels-photo-7120317.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/10154767/pexels-photo-10154767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7125393/pexels-photo-7125393.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7227811/pexels-photo-7227811.jpeg" />
-          <Card urlImg="https://images.pexels.com/photos/10448485/pexels-photo-10448485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7120317/pexels-photo-7120317.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/10154767/pexels-photo-10154767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7125393/pexels-photo-7125393.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7227811/pexels-photo-7227811.jpeg" />
-          <Card urlImg="https://images.pexels.com/photos/10448485/pexels-photo-10448485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7120317/pexels-photo-7120317.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/10154767/pexels-photo-10154767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7125393/pexels-photo-7125393.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7227811/pexels-photo-7227811.jpeg" />
-          <Card urlImg="https://images.pexels.com/photos/10448485/pexels-photo-10448485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7120317/pexels-photo-7120317.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/10154767/pexels-photo-10154767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7125393/pexels-photo-7125393.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7227811/pexels-photo-7227811.jpeg" />
-          <Card urlImg="https://images.pexels.com/photos/10448485/pexels-photo-10448485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7120317/pexels-photo-7120317.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/10154767/pexels-photo-10154767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7125393/pexels-photo-7125393.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7227811/pexels-photo-7227811.jpeg" />
-          <Card urlImg="https://images.pexels.com/photos/10448485/pexels-photo-10448485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7120317/pexels-photo-7120317.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/10154767/pexels-photo-10154767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7125393/pexels-photo-7125393.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7227811/pexels-photo-7227811.jpeg" />
-          <Card urlImg="https://images.pexels.com/photos/10448485/pexels-photo-10448485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7120317/pexels-photo-7120317.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7125393/pexels-photo-7125393.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7227811/pexels-photo-7227811.jpeg" />
-          <Card urlImg="https://images.pexels.com/photos/10448485/pexels-photo-10448485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7120317/pexels-photo-7120317.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/10154767/pexels-photo-10154767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7125393/pexels-photo-7125393.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
-          <Card urlImg="https://images.pexels.com/photos/7227811/pexels-photo-7227811.jpeg" />
-          <Card urlImg="https://images.pexels.com/photos/3209624/pexels-photo-3209624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+          {arrayFotos
+            .map((item,index)=>(
+            <Card key={index} urlImg={item} />
+          ))}
         </div>
       </section>
     </main>
